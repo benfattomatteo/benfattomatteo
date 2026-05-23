@@ -196,22 +196,23 @@ Modern web experiments focused on clean UI, scalable backend logic and real-worl
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=matteobenfatto97&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=8A2BE2&icon_color=8A2BE2&text_color=FFFFFF" />
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matteobenfatto97&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=8A2BE2&text_color=FFFFFF" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=matteobenfatto97&theme=tokyonight&hide_border=true&background=0D1117&ring=8A2BE2&fire=8A2BE2&currStreakLabel=FFFFFF" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=matteobenfatto97&theme=tokyonight" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=matteobenfatto97&theme=tokyonight" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=matteobenfatto97&bg_color=0D1117&color=FFFFFF&line=8A2BE2&point=FFFFFF&area=true&hide_border=true" />
+<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=matteobenfatto97&theme=tokyonight" />
+
+<br/><br/>
+
+<img width="98%" src="https://streak-stats.demolab.com?user=matteobenfatto97&theme=tokyonight&hide_border=true&background=0D1117&ring=8A2BE2&fire=8A2BE2&currStreakLabel=FFFFFF" />
+
+<br/><br/>
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=matteobenfatto97&bg_color=0D1117&color=FFFFFF&line=8A2BE2&point=FFFFFF&area=true&hide_border=true" />
 
 </div>
-
 ---
-
 ## 🧩 Engineering Philosophy
 
 ```txt
