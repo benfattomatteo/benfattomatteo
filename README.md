@@ -28,12 +28,13 @@
 <a href="mailto:matteo.benfatto97@gmail.com">
   <img width="31.5%" src="./assets/contact-email.svg" alt="Contact by Email" />
 </a>
+<br/>
 
-<br/><br/>
+<div align="center">
+  <img width="38%" src="./assets/contact-profile-signal.svg" alt="Profile Signal" />
+</div>
 
-<img src="https://komarev.com/ghpvc/?username=matteobenfatto97&style=flat-square&color=8A2BE2&labelColor=050816&label=PROFILE%20SIGNAL" />
-
-<br/><br/>
+<br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
