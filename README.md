@@ -284,11 +284,10 @@ Modern web experiments focused on clean UI, scalable backend logic and real-worl
 <img width="98%" src="https://streak-stats.demolab.com?user=matteobenfatto97&theme=tokyonight&hide_border=true&background=0D1117&ring=8A2BE2&fire=8A2BE2&currStreakLabel=FFFFFF" />
 
 <br/><br/>
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=matteobenfatto97&bg_color=0D1117&color=FFFFFF&line=8A2BE2&point=FFFFFF&area=true&hide_border=true" />
-
 </div>
+
 ---
+
 ## 🧩 Engineering Philosophy
 
 ```txt
