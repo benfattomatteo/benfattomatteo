@@ -1,0 +1,76 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="titleGrad" x1="250" y1="0" x2="950" y2="0">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="45%" stop-color="#C4B5FD"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#38BDF8" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#38BDF8" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono {
+        font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", Consolas, monospace;
+      }
+
+      .number {
+        font-size: 72px;
+        font-weight: 900;
+        letter-spacing: -2px;
+      }
+
+      .title {
+        font-size: 42px;
+        font-weight: 900;
+        letter-spacing: 5px;
+      }
+
+      .subtitle {
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 4px;
+      }
+
+      .pulse {
+        animation: pulse 3s ease-in-out infinite;
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: .45; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="150" fill="transparent"/>
+
+  <text x="70" y="100" class="mono number" fill="#1E293B">
+    01
+  </text>
+
+  <circle cx="185" cy="78" r="5" fill="#8B5CF6" filter="url(#glow)" class="pulse"/>
+
+  <text x="220" y="75" class="mono title" fill="url(#titleGrad)" filter="url(#glow)">
+    IDENTITY CORE
+  </text>
+
+  <text x="224" y="106" class="mono subtitle" fill="#64748B">
+    FULLSTACK SYSTEMS · AI ENGINEERING · AUTOMATION ARCHITECTURE
+  </text>
+
+  <rect x="220" y="126" width="820" height="2.5" rx="1.25" fill="url(#lineGrad)" opacity="0.9"/>
+</svg>
