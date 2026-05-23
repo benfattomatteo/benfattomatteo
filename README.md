@@ -73,8 +73,14 @@ const matteo: DeveloperProfile = {
     "turn complex ideas into elegant, intelligent and scalable software",
 };
 ```
-
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 <div align="center">
+
+## 🧠 Operating Principles
+
+### `THINK · BUILD · AUTOMATE · SCALE`
+
+</div>
 
 <table>
 <tr>
@@ -82,48 +88,53 @@ const matteo: DeveloperProfile = {
 
 ### 🧠 Think
 
-Systems before tasks.  
-Architecture before noise.
+I approach problems as systems, not isolated tasks.  
+Clarity first. Structure before execution.
 
 </td>
 <td align="center" width="25%">
 
 ### ⚙️ Build
 
-Interfaces, APIs and products designed to evolve.
+I create products where frontend, backend and logic move as one.  
+Clean interfaces. Solid foundations.
 
 </td>
 <td align="center" width="25%">
 
 ### 🤖 Automate
 
-Workflows that remove friction and multiply output.
+I design workflows that reduce friction, save time and create leverage.  
+Software should do more than just work.
 
 </td>
 <td align="center" width="25%">
 
 ### 🚀 Scale
 
-Cloud-ready logic, clean structure and resilient systems.
+I build with evolution in mind: maintainable, extensible and cloud-ready systems.  
+Built to grow, not to break.
 
 </td>
 </tr>
 </table>
 
-</div>
-
 <div align="center">
 
-> I build software that does not just run.  
-> I build software that understands, connects and evolves.
+> I do not just write code.  
+> I design systems that think, connect and evolve.
 
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
-## 🧠 Build System
+## 🌌 Build Domains
 
 <div align="center">
+
+### `THE AREAS WHERE I CREATE THE MOST VALUE`
+
+</div>
 
 <table>
 <tr>
@@ -131,8 +142,9 @@ Cloud-ready logic, clean structure and resilient systems.
 
 ### 🧠 AI Systems
 
-I design intelligent workflows, AI-powered tools and agentic systems that transform ideas into real products.
+I build intelligent applications, agentic workflows and automation layers that turn raw ideas into useful software.
 
+**Focus**  
 `LLMs` · `AI Agents` · `Automation` · `Pipelines`
 
 </td>
@@ -140,8 +152,9 @@ I design intelligent workflows, AI-powered tools and agentic systems that transf
 
 ### ⚙️ Fullstack Products
 
-I build modern applications with clean interfaces, structured APIs and scalable backend logic.
+I develop modern fullstack products with clean interfaces, structured APIs and scalable backend architecture.
 
+**Focus**  
 `React` · `TypeScript` · `FastAPI` · `Databases`
 
 </td>
@@ -149,24 +162,23 @@ I build modern applications with clean interfaces, structured APIs and scalable 
 
 ### ⚡ Automation Engines
 
-I create systems that connect services, process data, trigger actions and make repetitive work disappear.
+I create systems that connect services, process information, trigger actions and eliminate repetitive work.
 
+**Focus**  
 `APIs` · `Webhooks` · `Scheduling` · `Integrations`
 
 </td>
 </tr>
 </table>
 
-</div>
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
-## ⚙️ Tech Arsenal
+## ✨ Tech Constellation
 
 <div align="center">
 
-> My stack is not a random list of tools.  
-> It is the constellation I use to build intelligent, scalable and beautiful software.
+> My stack is not a random collection of tools.  
+> It is the constellation I use to build intelligent, scalable and elegant software.
 
 <br/>
 
@@ -202,43 +214,49 @@ I create systems that connect services, process data, trigger actions and make r
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
-## 🌌 Stack Philosophy
+## 🧬 Stack Philosophy
 
 <table>
 <tr>
 <td width="25%" align="center">
 
-### 🧠 Intelligence
+### Intelligence
 
-Python, LLMs and agents to make software understand, decide and act.
-
-</td>
-<td width="25%" align="center">
-
-### 🎨 Experience
-
-React, TypeScript and Tailwind to build elegant, fast and usable interfaces.
+Python, LLMs and automation logic to make software understand, decide and act.
 
 </td>
 <td width="25%" align="center">
 
-### ⚙️ Architecture
+### Experience
 
-FastAPI, databases, Redis and Docker to create reliable systems.
+React, TypeScript and Tailwind to build interfaces that feel fast, clean and intentional.
 
 </td>
 <td width="25%" align="center">
 
-### 🚀 Delivery
+### Architecture
 
-GitHub Actions, Linux and cloud workflows to ship faster and better.
+FastAPI, data systems, Redis and Docker to create strong and reliable software foundations.
+
+</td>
+<td width="25%" align="center">
+
+### Delivery
+
+GitHub Actions, Linux and workflow discipline to ship faster, better and with consistency.
 
 </td>
 </tr>
 </table>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
+<div align="center">
 
+> The goal is not to know many tools.  
+> The goal is to orchestrate the right ones into systems that matter.
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 ## 🚀 Project Galaxy
 
 <div align="center">
