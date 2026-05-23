@@ -1,14 +1,44 @@
+<!-- HERO -->
 <div align="center">
 
 <img width="100%" src="./assets/github-banner.png" alt="Matteo Benfatto - Fullstack Developer, AI Engineer, Automation Builder" />
 
-</div>
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=6,11,20,24,30" />
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=8A2BE2&center=true&vCenter=true&width=950&lines=I+build+intelligent+systems.;AI-powered+apps%2C+automation+and+fullstack+products.;Engineering+ideas+into+living+software.;A+point+in+the+Leo+constellation." />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=800&color=8A2BE2&center=true&vCenter=true&width=950&lines=AI-powered+apps%2C+automation+and+fullstack+products.;Engineering+ideas+into+living+software.;Building+systems+that+think%2C+automate+and+evolve.;A+point+in+the+Leo+constellation." />
 
 <br/><br/>
+
+<table>
+<tr>
+<td align="center">
+
+`AI Engineering`
+
+</td>
+<td align="center">
+
+`Fullstack Development`
+
+</td>
+<td align="center">
+
+`Automation Systems`
+
+</td>
+<td align="center">
+
+`Cloud-ready Architecture`
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 <a href="https://linkedin.com/in/matteobenfatto97">
   <img src="https://img.shields.io/badge/LinkedIn-Matteo%20Benfatto-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -23,6 +53,10 @@
 <br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=matteobenfatto97&style=for-the-badge&color=8A2BE2&label=PROFILE+VIEWS" />
+
+<br/><br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 </div>
 
