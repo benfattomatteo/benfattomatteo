@@ -1,7 +1,7 @@
 <!-- HERO -->
 <div align="center">
 
-<img width="100%" src="./assets/github-banner.png" alt="Matteo Benfatto - Fullstack Developer, AI Engineer, Automation Builder" />
+<img width="100%" src="./assets/banner.svg" alt="Matteo Benfatto - Fullstack Developer, AI Engineer, Automation Builder" />
 
 <br/>
 
