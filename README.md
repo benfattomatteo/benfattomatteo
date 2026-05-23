@@ -121,49 +121,7 @@ const matteo: DeveloperProfile = {
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
-## 🧬 Stack Philosophy
 
-<table>
-<tr>
-<td width="25%" align="center">
-
-### Intelligence
-
-Python, LLMs and automation logic to make software understand, decide and act.
-
-</td>
-<td width="25%" align="center">
-
-### Experience
-
-React, TypeScript and Tailwind to build interfaces that feel fast, clean and intentional.
-
-</td>
-<td width="25%" align="center">
-
-### Architecture
-
-FastAPI, data systems, Redis and Docker to create strong and reliable software foundations.
-
-</td>
-<td width="25%" align="center">
-
-### Delivery
-
-GitHub Actions, Linux and workflow discipline to ship faster, better and with consistency.
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-> The goal is not to know many tools.  
-> The goal is to orchestrate the right ones into systems that matter.
-
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 ## 🚀 Project Galaxy
 
 <div align="center">
