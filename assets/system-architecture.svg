@@ -1,0 +1,224 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="45%" stop-color="#8B5CF6"/>
+      <stop offset="75%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="260" y1="0" x2="940" y2="0">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="45%" stop-color="#C4B5FD"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="90" y1="0" x2="1110" y2="0">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.95"/>
+      <stop offset="85%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="coreGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 260) rotate(90) scale(230 520)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.24"/>
+      <stop offset="0.55" stop-color="#2563EB" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono {
+        font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", Consolas, monospace;
+      }
+
+      .eyebrow {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 4px;
+      }
+
+      .title {
+        font-size: 34px;
+        font-weight: 900;
+        letter-spacing: 2px;
+      }
+
+      .subtitle {
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
+
+      .cardNumber {
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 3px;
+      }
+
+      .cardTitle {
+        font-size: 20px;
+        font-weight: 900;
+        letter-spacing: 1.5px;
+      }
+
+      .body {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: .4px;
+      }
+
+      .tag {
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 1.6px;
+      }
+
+      .pulse {
+        animation: pulse 3s ease-in-out infinite;
+      }
+
+      .pulse2 {
+        animation: pulse 3s ease-in-out infinite;
+        animation-delay: 1s;
+      }
+
+      .pulse3 {
+        animation: pulse 3s ease-in-out infinite;
+        animation-delay: 2s;
+      }
+
+      .dash {
+        stroke-dasharray: 8 14;
+        animation: dash 16s linear infinite;
+      }
+
+      .dashReverse {
+        stroke-dasharray: 6 12;
+        animation: dashReverse 18s linear infinite;
+      }
+
+      .halo {
+        animation: haloBreath 5s ease-in-out infinite;
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: .35; }
+        50% { opacity: 1; }
+      }
+
+      @keyframes dash {
+        from { stroke-dashoffset: 160; }
+        to { stroke-dashoffset: 0; }
+      }
+
+      @keyframes dashReverse {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: 160; }
+      }
+
+      @keyframes haloBreath {
+        0%, 100% { opacity: .36; transform: scale(.985); }
+        50% { opacity: .7; transform: scale(1); }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="520" fill="transparent"/>
+
+  <!-- Main panel -->
+  <rect x="26" y="24" width="1148" height="472" rx="30" fill="#050816" opacity="0.98"/>
+  <rect x="27" y="25" width="1146" height="470" rx="29" stroke="url(#frame)" stroke-width="1.5" opacity="0.82"/>
+
+  <!-- Atmosphere -->
+  <ellipse cx="600" cy="260" rx="500" ry="220" fill="url(#coreGlow)" class="halo"/>
+  <path d="M84 122 C260 58 390 92 520 126 C690 172 825 130 1015 76 C1070 60 1115 66 1140 78" stroke="#60A5FA" stroke-opacity=".28" stroke-width="1.4" class="dash"/>
+  <path d="M76 428 C220 370 380 402 520 438 C700 486 910 452 1110 366" stroke="#8B5CF6" stroke-opacity=".28" stroke-width="1.3" class="dashReverse"/>
+
+  <!-- Header -->
+  <text x="72" y="62" class="mono eyebrow" fill="#94A3B8">MATTEO BENFATTO // BUILDING SYSTEM</text>
+  <text x="1128" y="62" text-anchor="end" class="mono eyebrow pulse" fill="#A78BFA">ARCHITECTURE ONLINE</text>
+
+  <path d="M72 82 H278" stroke="url(#lineGrad)" stroke-width="2" opacity=".7"/>
+  <path d="M922 82 H1128" stroke="url(#lineGrad)" stroke-width="2" opacity=".7"/>
+
+  <circle cx="310" cy="82" r="4" fill="#38BDF8" filter="url(#glow)" class="pulse"/>
+  <circle cx="600" cy="82" r="4" fill="#8B5CF6" filter="url(#glow)" class="pulse2"/>
+  <circle cx="890" cy="82" r="4" fill="#60A5FA" filter="url(#glow)" class="pulse3"/>
+
+  <text x="600" y="112" text-anchor="middle" class="mono title" fill="url(#textGrad)" filter="url(#softGlow)">
+    SYSTEM ARCHITECTURE
+  </text>
+
+  <text x="600" y="139" text-anchor="middle" class="mono subtitle" fill="#94A3B8">
+    FROM IDEA · TO INTELLIGENCE · TO LIVING SOFTWARE
+  </text>
+
+  <!-- Center spine -->
+  <path d="M600 160 V392" stroke="url(#lineGrad)" stroke-width="1.3" opacity=".55" class="dash"/>
+  <circle cx="600" cy="160" r="5" fill="#8B5CF6" filter="url(#glow)" class="pulse"/>
+  <circle cx="600" cy="276" r="5" fill="#38BDF8" filter="url(#glow)" class="pulse2"/>
+  <circle cx="600" cy="392" r="5" fill="#A78BFA" filter="url(#glow)" class="pulse3"/>
+
+  <!-- Card 01 -->
+  <rect x="72" y="176" width="500" height="118" rx="22" fill="#0B1120" opacity=".86"/>
+  <rect x="72.8" y="176.8" width="498.4" height="116.4" rx="21.2" stroke="#38BDF8" stroke-opacity=".62"/>
+  <text x="102" y="209" class="mono cardNumber" fill="#38BDF8">01</text>
+  <text x="152" y="210" class="mono cardTitle" fill="#F8FAFC">INTELLIGENCE LAYER</text>
+  <text x="102" y="240" class="mono body" fill="#CBD5E1">Systems that understand context, process information</text>
+  <text x="102" y="260" class="mono body" fill="#CBD5E1">and turn ideas into intelligent product behavior.</text>
+  <text x="102" y="282" class="mono tag" fill="#93C5FD">LLMS · AI AGENTS · AUTOMATION LOGIC · DECISION FLOWS</text>
+  <circle cx="532" cy="206" r="4" fill="#38BDF8" filter="url(#glow)" class="pulse"/>
+
+  <!-- Card 02 -->
+  <rect x="628" y="176" width="500" height="118" rx="22" fill="#0B1120" opacity=".86"/>
+  <rect x="628.8" y="176.8" width="498.4" height="116.4" rx="21.2" stroke="#8B5CF6" stroke-opacity=".62"/>
+  <text x="658" y="209" class="mono cardNumber" fill="#A78BFA">02</text>
+  <text x="708" y="210" class="mono cardTitle" fill="#F8FAFC">PRODUCT LAYER</text>
+  <text x="658" y="240" class="mono body" fill="#CBD5E1">Interfaces, APIs and backend logic moving together</text>
+  <text x="658" y="260" class="mono body" fill="#CBD5E1">as clean fullstack products designed to evolve.</text>
+  <text x="658" y="282" class="mono tag" fill="#C4B5FD">REACT · TYPESCRIPT · FASTAPI · DATABASES</text>
+  <circle cx="1088" cy="206" r="4" fill="#8B5CF6" filter="url(#glow)" class="pulse2"/>
+
+  <!-- Card 03 -->
+  <rect x="72" y="322" width="500" height="118" rx="22" fill="#0B1120" opacity=".86"/>
+  <rect x="72.8" y="322.8" width="498.4" height="116.4" rx="21.2" stroke="#8B5CF6" stroke-opacity=".62"/>
+  <text x="102" y="355" class="mono cardNumber" fill="#A78BFA">03</text>
+  <text x="152" y="356" class="mono cardTitle" fill="#F8FAFC">AUTOMATION LAYER</text>
+  <text x="102" y="386" class="mono body" fill="#CBD5E1">Workflows that connect services, trigger actions</text>
+  <text x="102" y="406" class="mono body" fill="#CBD5E1">and transform repetitive work into invisible execution.</text>
+  <text x="102" y="428" class="mono tag" fill="#C4B5FD">APIS · WEBHOOKS · SCHEDULING · INTEGRATIONS</text>
+  <circle cx="532" cy="352" r="4" fill="#8B5CF6" filter="url(#glow)" class="pulse3"/>
+
+  <!-- Card 04 -->
+  <rect x="628" y="322" width="500" height="118" rx="22" fill="#0B1120" opacity=".86"/>
+  <rect x="628.8" y="322.8" width="498.4" height="116.4" rx="21.2" stroke="#38BDF8" stroke-opacity=".62"/>
+  <text x="658" y="355" class="mono cardNumber" fill="#38BDF8">04</text>
+  <text x="708" y="356" class="mono cardTitle" fill="#F8FAFC">SCALE LAYER</text>
+  <text x="658" y="386" class="mono body" fill="#CBD5E1">Maintainable architecture, containerized services</text>
+  <text x="658" y="406" class="mono body" fill="#CBD5E1">and cloud-ready foundations built to grow.</text>
+  <text x="658" y="428" class="mono tag" fill="#93C5FD">DOCKER · REDIS · GITHUB ACTIONS · LINUX</text>
+  <circle cx="1088" cy="352" r="4" fill="#38BDF8" filter="url(#glow)" class="pulse"/>
+  
+  <!-- Footer doctrine -->
+  <rect x="230" y="462" width="740" height="2.2" rx="1.1" fill="url(#lineGrad)" opacity=".9"/>
+  <text x="600" y="484" text-anchor="middle" class="mono eyebrow" fill="#64748B">
+    THINK IN SYSTEMS · BUILD WITH STRUCTURE · AUTOMATE WITH PURPOSE · SCALE WITH INTENT
+  </text>
+</svg>
