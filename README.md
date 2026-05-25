@@ -47,34 +47,92 @@
 <div align="center">
 
 </div>
-
 ```ts
-const matteo: DeveloperProfile = {
-  name: "Matteo Benfatto",
-  role: "Fullstack Developer & AI Engineer",
-  location: "Italy",
+const matteo = {
+  codename: "Leo Node",
 
-  mindset: "build fast, automate deeply, think systemically",
+  identity: {
+    name: "Matteo Benfatto",
+    role: "Fullstack Developer · AI Engineer · Automation Builder",
+    origin: "Italy",
+    signature: "a point in the Leo constellation"
+  },
 
-  specialization: [
-    "AI-powered applications",
-    "Fullstack product development",
-    "Automation systems",
-    "API-first architectures",
-    "Cloud-ready software"
-  ],
+  systemMode: {
+    mindset: "build fast, automate deeply, think systemically",
+    principle: "software should not only run — it should understand, connect and evolve",
+    method: "transform complexity into structure, structure into automation, automation into leverage",
+    standard: "premium interfaces, clean architectures, intelligent workflows"
+  },
 
-  stack: {
-    languages: ["Python", "TypeScript", "JavaScript"],
-    frontend: ["React", "Next.js", "Tailwind CSS"],
-    backend: ["FastAPI", "Node.js", "REST APIs"],
-    data: ["PostgreSQL", "Redis", "MongoDB"],
-    devOps: ["Docker", "GitHub Actions", "Linux"],
-    ai: ["LLMs", "AI Agents", "Automation Pipelines"]
+  buildDomains: {
+    intelligence: [
+      "AI-powered applications",
+      "LLM workflows",
+      "AI agents",
+      "automation pipelines"
+    ],
+
+    product: [
+      "fullstack web applications",
+      "API-first platforms",
+      "cloud-ready systems",
+      "dashboard experiences"
+    ],
+
+    perception: [
+      "machine learning experiments",
+      "computer vision pipelines",
+      "object detection",
+      "visual intelligence"
+    ],
+
+    automation: [
+      "workflow engines",
+      "service integrations",
+      "scheduled actions",
+      "productivity systems"
+    ]
+  },
+
+  constellation: {
+    core: ["Python", "TypeScript", "JavaScript"],
+    interface: ["React", "Next.js", "Vite", "Tailwind CSS"],
+    backend: ["FastAPI", "Node.js", "Express", "REST APIs"],
+    databases: ["PostgreSQL", "Redis", "MongoDB", "MySQL", "SQLite"],
+
+    data: ["NumPy", "pandas", "Polars", "Matplotlib", "Seaborn", "Plotly"],
+
+    intelligence: [
+      "scikit-learn",
+      "TensorFlow",
+      "Keras",
+      "PyTorch",
+      "torchvision",
+      "LLMs",
+      "AI Agents"
+    ],
+
+    vision: [
+      "OpenCV",
+      "Albumentations",
+      "Ultralytics YOLO",
+      "MediaPipe",
+      "PCL",
+      "CARLA"
+    ],
+
+    deployment: ["Docker", "GitHub Actions", "Linux", "Vercel", "Nginx"]
+  },
+
+  currentOrbit: {
+    learning: "AI engineering · machine learning · computer vision · architecture",
+    building: "intelligent products · automation systems · visual pipelines",
+    direction: "from fullstack software to perception-driven intelligent systems"
   },
 
   mission:
-    "turn complex ideas into elegant, intelligent and scalable software",
+    "engineer ideas into living software with intelligence, automation and purpose"
 };
 ```
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
