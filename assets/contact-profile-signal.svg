@@ -81,7 +81,7 @@
 
   <!-- number pill -->
   <rect x="334" y="33" width="56" height="38" rx="10" fill="url(#pill)" filter="url(#glow)"/>
-  <text x="362" y="58" text-anchor="middle" class="mono count" fill="#FFFFFF">048</text>
+  <text x="362" y="58" text-anchor="middle" class="mono count" fill="#FFFFFF">059</text>
 
   <!-- top signal dot -->
   <circle cx="380" cy="28" r="3.5" fill="#8B5CF6" filter="url(#glow)" class="pulse"/>
