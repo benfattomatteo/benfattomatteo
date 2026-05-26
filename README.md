@@ -180,6 +180,18 @@ const matteo = {
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
+## Certifications
+
+<p align="left">
+  <a href="https://www.credly.com/badges/4e1a41ce-f000-4444-a3a5-6e4c1cc1e508/public_url">
+    <img src="assets/ibm-ai-fundamentals.png" alt="IBM Artificial Intelligence Fundamentals" width="115"/>
+  </a>
+</p>
+
+**IBM SkillsBuild — Artificial Intelligence Fundamentals**  
+Applied AI · Machine Vision · Intelligent Software Systems  
+[Verify credential](https://www.credly.com/badges/4e1a41ce-f000-4444-a3a5-6e4c1cc1e508/public_url)
+
 <div align="center">
 
 <img width="100%" src="./assets/section-github-signals.svg" alt="GitHub Signals" />
