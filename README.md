@@ -1,7 +1,7 @@
 <!-- HERO -->
 <div align="center">
 <p align="center">
-  <img src="./assets/github-banner.png" alt="Matteo Benfatto - AI/ML Engineer Banner" width="100%" />
+  <img src="./assets/github-banner.png" alt="Matteo Benfatto - AI/ML Banner" width="100%" />
 </p>
 <br/><br/>
 
