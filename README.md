@@ -187,17 +187,40 @@ const matteo = {
 
 <br/>
 
-<div align="center">
+<table>
+<tr>
+<td width="24%" align="center">
 
-<img width="100%" src="./assets/section-certifications.svg" alt="Certifications" />
-
-<br/>
-
-<a href="https://www.credly.com/badges/4e1a41ce-f000-4444-a3a5-6e4c1cc1e508/public_url">
-  <img width="100%" src="./assets/certification-dock.svg" alt="IBM SkillsBuild - Artificial Intelligence Fundamentals" />
+<a href="INSERISCI_LINK_CREDENZIALE">
+  <img width="180" src="./assets/ibm-ai-fundamentals.png" alt="IBM SkillsBuild - Artificial Intelligence Fundamentals" />
 </a>
 
-</div>
+</td>
+<td width="76%" align="left">
+
+<p><strong>VERIFIED CREDENTIAL // IBM SKILLSBUILD</strong></p>
+
+<h2>Artificial Intelligence Fundamentals</h2>
+
+<p>
+A foundational credential focused on AI concepts, intelligent software systems and emerging machine vision workflows.
+</p>
+
+<p>
+  <code>Artificial Intelligence</code>
+  <code>Machine Vision</code>
+  <code>Intelligent Systems</code>
+  <code>AI Foundations</code>
+</p>
+
+<a href="INSERISCI_LINK_CREDENZIALE">
+  <strong>VERIFY CREDENTIAL ↗</strong>
+</a>
+
+</td>
+</tr>
+</table>
+
 </div>
 
 
